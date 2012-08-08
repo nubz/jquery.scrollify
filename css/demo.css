@@ -1,0 +1,12 @@
+div.menu-panel { background-color:#F47A23;  position:relative; width:30%; margin:5px auto; padding:5px;}
+div.menu-panel ul { list-style:none; padding-left:0; padding:5px; margin:0; position:relative; }
+div.menu-panel ul li { margin-bottom:2px; height:26px; overflow:hidden; }
+div.menu-panel ul li a {  line-height:16px; text-decoration:none; display:block; background:#eee; padding: 6px; border-bottom:1px dotted #999; }
+div.menu-panel ul li a:hover,
+div.menu-panel ul li a.selected { color:#fff; background:#ccc; font-weight:bold; }
+div.menu-panel ul li a:hover,
+div.menu-panel ul li a.selected { background:#1DA1BF; }
+div.menu-panel div.menu-window {background:#fff; overflow:hidden; padding:0 8px; height:180px; position:relative; font-size:11px; margin:0; }
+div.menu-panel div.menu-window .loading-menu {  padding:75px 85px; z-index:20; position:absolute;}
+div.menu-panel a.up,  div.menu-panel a.down { margin:0; display:block; text-align:center; padding:5px 0;}
+div.menu-panel a.disabled { opacity: 0.3; filter: alpha(opacity=30); cursor: default; }​
